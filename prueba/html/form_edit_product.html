@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Editar Producto</title>
+</head>
+<body>
+
+	<h1>Editar Producto</h1>
+	
+	<form method="POST">
+		<div>n
+			<label for="nameproduct">Nombre del Producto</label>
+			<div>
+				<input type="text" name="nameproduct" id="nameproduct">
+			</div>
+		</div>
+		<div>
+			<label for="size">Talla</label>
+			<div>
+				<input type="text" name="size" id="size">
+			</div>
+		</div>
+		<div>
+			<label for="obs">Observaciones</label>
+			<div>
+				<input type="text" name="obs" id="obs">
+			</div>
+		</div>
+		<div>
+			<label for="type">Marca del Producto</label>
+			<div>
+				<input type="text" name="type" id="type">
+			</div>
+		</div>
+		<div>
+			<label for="quantity">Cantidad en Inventario</label>
+			<div>
+				<input type="number" name="quantity" id="quantity">
+			</div>
+		</div>
+		<div>
+			<label for="date">Fecha de Embarque</label>
+			<div>
+				<input type="date" name="date" id="date">
+			</div>
+		</div>
+		<div>
+			<div>
+				<input type="hidden" name="edit" id="edit" value="1">
+			</div>
+		</div>
+		<div>
+			<button type="submit">Guardar</button>
+		</div>
+	</form>
+
+</body>
+</html>
